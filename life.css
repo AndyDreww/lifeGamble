@@ -1,0 +1,94 @@
+body {
+  background-color: #343343;
+  font-size: 14px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #f41313;
+  margin-bottom: -5px;
+  text-shadow: 3px 4px 8px #000000;
+}
+
+p {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #fff;
+}
+
+a:link, a:visited {
+  color: #eee;
+}
+a:hover {
+  color: #000;
+}
+
+.intro {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.dice {
+  width: 30%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.dice h2 {
+  font-size: 2.5rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #fff;
+}
+
+.dice img {
+  width: 30%;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  padding: 40px 0;
+  font-size: 2rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #f41313;
+  background-color: #000;
+  border-radius: 20px;
+  border-style: none;
+}
+
+button:hover {
+    -webkit-box-shadow: 7px 9px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 23px -10px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+button:active {
+  background: #161616;
+}
+
+.red {
+  color: red;
+}
+
+.end {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <title>The Gamble of Life</title>
+    <link href="life.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|UnifrakturMaguntia" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>The Gamble of Life</h1>
+      <img src="images/skull.gif" alt="The face of death" width="200">
+      <p class="intro">Welcome to the gamble of life.<br>
+      Life is a gamble, so why not try your luck with me?<br>
+      Lose and you'll die. Win and you'll live (for now).</p>
+
+      <div class="dice">
+        <h2>You</h2>
+        <img class="you" src="images/dice6.png">
+      </div>
+
+      <div class="me dice">
+        <h2>Me</h2>
+        <img src="images/dice6.png">
+      </div>
+
+      <button type="button">Gamble With Your Life</button>
+
+      <div class="result"></div>
+      <p>Skull courtesy of <a href="https://kvsr.itch.io/">kvsr</a></p>
+
+      <audio id="myAudio">
+        <source src="audio\wickedmalelaugh1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <!-- Javascript links -->
+    <script src="fight.js" charset="utf-8"></script>
+  </body>
+</html>
